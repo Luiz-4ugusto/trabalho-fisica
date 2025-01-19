@@ -317,3 +317,22 @@ nav ul li a {
   margin: 50px auto; /* Centraliza horizontalmente */
   text-align: center;
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .game img {
+    width: 100%; /* Ajusta as imagens dentro da seção .game */
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto; /* Ajusta o iframe para manter proporção */
+  }
+}
+
